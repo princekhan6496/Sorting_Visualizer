@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Sorting Visualizer</h1>
+      </header>
+
+      <div class="controls">
+        <div class="control-group">
+          <button id="generateArray" class="btn btn-primary">Generate New Array</button>
+        </div>
+
+        <div class="control-group">
+          <label for="arraySize">Array Size: <span id="arraySizeValue">50</span></label>
+          <input type="range" id="arraySize" min="10" max="1000" value="50" />
+        </div>
+
+        <div class="control-group">
+          <label for="animationSpeed">Speed: <span id="animationSpeedValue">50</span>ms</label>
+          <input type="range" id="animationSpeed" min="1" max="200" value="50" />
+        </div>
+      </div>
+
+      <div class="algorithm-buttons">
+        <button class="btn btn-algorithm" data-algorithm="bubble">Bubble Sort</button>
+        <button class="btn btn-algorithm" data-algorithm="selection">Selection Sort</button>
+        <button class="btn btn-algorithm" data-algorithm="insertion">Insertion Sort</button>
+        <button class="btn btn-algorithm" data-algorithm="merge">Merge Sort</button>
+        <button class="btn btn-algorithm" data-algorithm="quick">Quick Sort</button>
+        <button class="btn btn-algorithm" data-algorithm="heap">Heap Sort</button>
+        <button class="btn btn-algorithm" data-algorithm="hybrid">Hybrid Merge–Insertion Sort</button>
+      </div>
+
+      <div class="status">
+        <p id="algorithmName">Select an algorithm to begin</p>
+        <p id="sortingTime" class="time-display"></p>
+      </div>
+
+      <div class="array-container" id="arrayContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
