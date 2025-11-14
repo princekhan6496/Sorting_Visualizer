@@ -1,1 +1,2 @@
 Sorting Visualizer
+For better visualization
