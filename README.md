@@ -48,7 +48,7 @@ Sorting_Visualizer/
 - Insertion Sort  
 - Merge Sort  
 - Quick Sort  
-- **Hybrid Merge–Insertion Sort (your new algorithm)**
+- **Hybrid Merge–Insertion Sort**
 
 ### 🎥 **Real-Time Visualizations**
 - Bar animations  
@@ -57,11 +57,7 @@ Sorting_Visualizer/
 - Adjustable speed slider  
 
 ### 📈 **Performance Stats**
-- Total comparisons  
-- Swaps  
-- Execution time  
-- Algorithm complexity (static info)
-
+- Execution time 
 ---
 
 ## 🧠 Hybrid Merge–Insertion Sort
