@@ -125,7 +125,7 @@ Performance Module (stats)
 ---
 
 ## 🧪 Future Improvements
-- Add Radix Sort  
+- Add Radix Sort / Counting Sort
 - Add sound-based visualization  
 - Add dark/light theme  
 
