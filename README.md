@@ -132,5 +132,5 @@ Performance Module (stats)
 ---
 
 
-## 📜 License  
+## 📜 License
 MIT License © 2025
